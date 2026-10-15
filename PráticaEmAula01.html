@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletores CSS 👩‍💻</title>
+
+    <style>
+        body {
+            background-color: #ffe4ef;
+            font-family: Arial;
+            color: #743054;
+        }
+
+        h1 {
+            color: #d63384;
+            text-align: center;
+        }
+
+        h2 {
+            color: #c0447b;
+        }
+
+        section {
+            background-color: rgb(255, 255, 255);
+            padding: 3px;
+            margin: 3px;
+            border-radius: 8px;
+        }
+
+        pre {
+            background-color: #fce4ec;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Seletores CSS 🌷</h1>
+    <hr>
+    <br>
+
+    <section>
+        <h2> 1. Seletor de Atributo</h2>
+        <p>Seleciona elementos HTML com base em seus atributos.</p>
+        <pre>input[required] {
+    color: pink;
+}</pre>
+    </section>
+
+    <section>
+        <h2> 2. Seletor Descendente</h2>
+        <p>Seleciona elementos que estão dentro de outros elementos..</p>
+        <pre>div p {
+    color: pink;
+}</pre>
+    </section>
+
+    <section>
+        <h2> 3. Seletor Filho Direto</h2>
+        <p>Seleciona apenas os elementos que são filhos diretos de outro elemento.</p>
+        <pre>div > p {
+    color: pink;
+}</pre>
+    </section>
+
+    <section>
+        <h2> 4. Seletor Adjacente Direto</h2>
+        <p>Seleciona o elemento que vem imediatamente depois de outro..</p>
+        <pre>h2 + p {
+    color: pink;
+}</pre>
+    </section>
+
+    <section>
+        <h2> 5. Seletor de Irmãos Gerais</h2>
+        <p>Seleciona todos os elementos especificados que vêm depois de outro, no mesmo nível.</p>
+        <pre>h2 ~ p {
+    color: pink;
+}</pre>
+    </section>
+
+    <section>
+        <h2> 6. Seletor de Pseudoclasse</h2>
+        <p>Aplica estilos a um elemento conforme seu estado ou posição.</p>
+        <pre>a:hover {
+    color: red;
+}</pre>
+    </section>
+
+    <section>
+        <h2> 7. Seletor de Pseudoelemento</h2>
+        <p>Estiliza uma parte específica de um elemento, como a primeira letra de um texto.</p>
+        <pre>p::first-line {
+    color: pink;
+}</pre>
+    </section>
+  
+    <footer style="text-align: center;">&copy; Senai 2026</footer>
+</body>
+</html>
